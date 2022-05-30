@@ -1,6 +1,6 @@
 ---
 - name: update files
-  hosts: master_node
+  hosts: k8s_master
   become: yes 
  
   tasks: 
