@@ -16,5 +16,5 @@
       shell: docker push wlsthq531jpn/testweb:6.0 
  
     - name: kubernetes create 
-      shell: kubectl apply -f ~/jenkins/nginx.yaml  
+      shell: kubectl apply -f ~/jenkins/httpd.yaml  
 
