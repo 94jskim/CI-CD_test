@@ -1,3 +1,3 @@
 echo "Project start"
-ansible-playbook nginx.play.yaml
+ansible-playbook nginx_play.yaml
 echo "Project end"
